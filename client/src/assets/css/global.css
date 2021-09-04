@@ -1,0 +1,384 @@
+
+/* Open Sans web font */
+
+/* 
+  for IE11 copy the Google font url. Paste the url into IE11. Notepad will open and show the CSS needed for the woff fonts. Download the woff fonts and place them in a local fonts folder. 
+*/
+
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('OpenSans-Regular-400'), url(../fonts/OpenSans-Regular-400.woff) format('woff');
+}
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: local('OpenSans-SemiBold-600'), url(../fonts/OpenSans-Regular-600.woff) format('woff');
+}
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: local('OpenSans-Bold-700'), url(../fonts/OpenSans-Regular-700.woff) format('woff');
+}
+
+/* Firefox, Chrome web fonts */
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600,700&display=swap" rel="stylesheet');
+
+body,html {
+  height: 100%;
+}
+
+[v-cloak] {display: none !important}
+
+/*Default validation icons off in IE11*/
+input::-ms-clear, input::-ms-reveal {
+  display: none; 
+}
+
+.closeBtn {
+  font-size:28px;color:#9f9f9f;cursor:pointer !important;text-decoration:none;
+}
+
+
+/* non-component based global CSS for app and Bootstrap */
+.content {
+  max-width: 1400px;
+  min-width: 1090px;
+  margin:0 auto;
+  padding-left:15px;
+  padding-right:15px;
+}
+.btn {
+  font-weight:bold;
+  border-radius:3px !important;
+  outline:0 !important;
+}
+button {
+  outline:0 !important;
+}
+.btn-success,.btn.btn-primary {
+  background-color: #78be21 !important;
+  border-color: #78be21 !important;
+}
+.btn-success:hover,.btn.btn-primary:hover {
+  background-color: #449d44 !important;
+  border-color: #449d44 !important;
+}
+.btn-success[disabled],.btn.btn-primary[disabled] {
+  background-color:#5cb85c !important;
+  border-color:#5cb85c !important;
+  opacity:.5 !important;
+}
+.form {
+  background-color:#FFF;border-radius:5px;border:solid 1px #e6e9ed;
+}
+
+.blue,.blueTxt {
+  color:#294c86;
+}
+.green {
+  color:#78be21;
+}
+.teal {
+  color:#0197a9;
+}
+.orange {
+  color:#efc100;
+}
+.red {
+  color:#df182e;
+}
+.gray {
+  color:#dfe3e6;
+}
+
+#clinicSelector {
+  color:#294c86;
+  box-shadow:none !important;
+  -webkit-box-shadow:none !important;
+  outline:none;
+  border:solid 2px #ddd !important;
+  border-radius:5px;
+  font-weight:bold;
+  background-color:#FFF;
+}
+
+#clinicSelector:focus {
+  border-color:#78be21 !important;
+}
+.dropdown-menu > .active > a,.dropdown-menu > .active > a:hover {
+  background-color:#294c86;
+}
+
+.tooltip-inner{
+  background: #535457 !important;
+  max-width :150px !important;
+  border-radius:6px !important; 
+}
+
+.tooltip .tooltip-arrow{
+  border-bottom-color :  #535457 !important;
+}
+
+.popover {
+  background-color: #535457 !important;
+  color: #fff !important; 
+}
+
+.popover-title {
+  background-color: #535457 !important;
+  border-bottom: 0px !important;
+}
+
+.popover.top>.arrow:after  {
+  border-top-color: #535457 !important;
+}
+
+.popover-content {
+  color: #fff !important; 
+}
+#app {
+  font-family: "Open Sans", Arial,Helvetica,sans-serif;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-weight: 400;
+  color: #333333;
+  background-color:#f4f7fb;
+  font-size: 13px;
+  min-height: 100%;
+  position:relative;
+}
+
+.linkBtn {
+  cursor:pointer !important;
+  font-size:14px !important;
+  display:inline-block;
+  color:#23527c;
+  text-decoration:underline !important;
+}
+
+.linkBtn:hover {
+  text-decoration:none !important;
+}
+
+.linkBtn[disabled] {
+  opacity:.5;
+  cursor:not-allowed !important;
+}
+
+p.tabHeading {
+  font-size: 15px;
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+.dropdown-menu > .active > a, .dropdown-menu > .active > a:focus, .dropdown-menu > .active > a:hover {
+  color: #fff;
+  text-decoration: none;
+  background-color: #005496 !important;
+    outline: 0;
+}
+
+.nav-tabs {
+  height:36px;
+  border-bottom: 3px solid #005496 !important;
+}
+.nav-tabs > li > a {
+  color:#005496 !important;
+  font-weight:bold;
+  font-size: 13px;
+  padding: 8px 20px !important;
+  background-color:#f4f7fb;
+  border-radius: 3px 3px 0 0;
+  border-color:#005496 !important;
+  border-bottom-color:transparent !important;
+  margin-right: 1px !important;
+  height:33px;
+}
+.nav-tabs > li.active > a, .nav-tabs > li.active > a:focus, .nav-tabs > li.active > a:hover {
+  color:#FFF !important;
+  background-color:#005496 !important;
+
+}
+
+/* navigation */
+.nav.navbar-nav > li a {
+  color:#294c86;
+}
+.nav.navbar-nav > li > a:hover,.nav.navbar-nav > li > a:active,.nav.navbar-nav > li > a:focus{
+  background-color:transparent !important;
+  color:#294c86;
+  cursor:default;
+}
+
+.navbar {
+  max-width: 1400px;
+  min-width: 1090px;
+  margin:0 auto;
+  border:0;
+  border-radius:0;
+  position: static !important;
+  border:0 !important;
+  margin-bottom: 0 !important;
+  padding-top:7px;
+}
+.navbar-brand {
+  color:#294c86;
+  padding-top:15px;
+}
+.navbar-brand:hover {
+  cursor:default;
+}
+.navbar .navtop {
+  border-top:solid 7px #294c86;
+  width: calc(100% - 5px);
+}
+.navbar-collapse.collapse {
+  display: block!important;
+}
+.navbar-nav>li, .navbar-nav {
+  float: left !important;
+  background-color:transparent !important;
+}
+/* override for media query responsive bootstrap padding change */
+.navbar-nav>li>a {
+  padding-top: 15px !important;
+  padding-bottom: 15px !important;
+  line-height: 20px !important;
+}
+.navbar-nav.navbar-right:last-child {
+  margin-right: -15px !important;
+}
+.navbar-right {
+  float: right!important;
+}
+.navbar-header {
+  float:left;   
+}
+
+.nav-blue {
+  width:100%;height:7px;transform: skew(-30deg);position:absolute;top:0;left:-5px;background:#005496;border-left:solid 3px #FFF;border-right:solid 3px #FFF;
+}
+.nav-green {
+  width:90px;height:7px;transform: skew(-30deg);position:absolute;top:0;right:113px;background:#78be21;border-left:solid 3px #FFF;border-right:solid 3px #FFF;
+}
+.nav-teal {
+  width:110px;height:7px;transform: skew(-30deg);position:absolute;top:0;right:3px;background:#0197a9;border-right:solid px #FFF;
+}
+
+/* form controls */
+input[type="email"],input[type="text"] {
+  background-image: none;
+  border: solid 1px #b6b6b6 !important;
+  box-shadow: none !important;
+  transition: none !important;
+}
+
+input[type="email"]:focus,input[type="text"]:focus {
+   background-color:#fffec2;
+}
+
+input[type="text"][readonly] {
+  background-color: #eee;
+  border: solid 1px #eee !important;
+}
+
+
+
+/* date picker */
+.btn.btn-block.btn-primary.btn-sm {
+  background-color:#3d72b1;
+}
+
+.btn.disabled.btn-block.btn-default.btn-sm span {
+  color:#bfc3c6;
+}
+
+/* notifications */
+
+.alert {
+  color:#0e2530;
+  font-size:14px;
+  font-weight:bold;
+  background-color:#fff;
+  border-color:#e6e9ed !important;
+  box-shadow: 0 1px 8px 0 rgba(132, 132, 132, 0.2),0 1px 2px 0 rgba(202, 202, 202, 0.22) !important;
+  border-radius: 0;
+}
+.alert-success {
+  border-left: solid 4px #5ca71d !important;
+}
+
+.alert-info {
+  border-left: solid 4px #005496 !important;
+}
+
+.alert-warning {
+  border-left: solid 4px #eec12c !important;
+}
+
+.alert-danger {
+  border-left: solid 4px #de1730 !important;
+}
+
+.alert .media-left {
+  display:none;
+}
+
+.alert .media-heading {
+  font-size:14px;
+}
+
+.alert .media-body div:nth-child(2) {
+  color: #758189;
+  font-size:12px;
+  font-weight:bold;
+}
+
+.alert .close {
+  color:#64717a;
+  font-size: 22px;
+  opacity:1;
+}
+
+/* modal dialogs */
+.modal-dialog .modal-content {
+  font-family: "Open Sans", Arial,Helvetica,sans-serif !important;
+  background-color: #f4f7fb;
+  border-radius:5px;
+}
+.modal-dialog .modal-header {
+  color:#294c86;
+  border-color: #e6e9ed;
+}
+.modal-dialog .modal-footer {
+  color:#294c86;
+  border-color: #e6e9ed;
+  background-color:#FFF;
+}
+.modal-dialog .modal-footer button:last-child {
+  margin-left:10px;
+}
+
+.modal-dialog .modal-body {
+  font-size:14px;
+  background-color: #FFF;
+  min-height:100px;
+}
+.modal-header .close {
+  opacity: 1;
+  color: #64717a;
+  font-size: 22px;
+}
+.ag-watermark {
+  display:none !important;
+  position:absolute !important;
+  opacity:0 !important;
+  background-image: none !important;
+}

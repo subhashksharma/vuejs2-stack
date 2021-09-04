@@ -1,0 +1,158 @@
+{
+  "allergyDa": [{
+    "eCCAllergyName" : "codeIne",
+    "eCCReaction" :"Anaphylaxis",
+    "externalAllergyName": "latex",
+    "externalAllergyReaction" : "Hives",
+    "dateTime" : "08/12/2021 00:09",
+    "externalSource" :"Rush University Medical Center",
+    "selectedChoise" : "true"
+  }, {
+    "eCCAllergyName" : "Oxycodone",
+    "eCCReaction" :"Swelling",
+    "externalAllergyName": "codeine",
+    "externalAllergyReaction" : "Anaphylaxis",
+    "dateTime" : "08/12/2021 00:09",
+    "externalSource" :"Rush University Medical Center",
+    "selectedChoise" : "true"
+  },
+  {
+    "eCCAllergyName" : "Shellfish",
+    "eCCReaction" :"Hives",
+    "externalAllergyName": "oxycodone",
+    "externalAllergyReaction" : "Swelling",
+    "dateTime" : "08/12/2021 00:09",
+    "externalSource" :"Rush University Medical Center",
+    "selectedChoise" : "true"
+  },
+  {
+    "eCCAllergyName" : "codeIne",
+    "eCCReaction" :"Anaphylaxis",
+    "externalAllergyName": "latex",
+    "externalAllergyReaction" : "Hives",
+    "dateTime" : "08/12/2021 00:09",
+    "externalSource" :"Rush University Medical Center",
+    "selectedChoise" : "true"
+  }, {
+    "eCCAllergyName" : "Oxycodone",
+    "eCCReaction" :"Swelling",
+    "externalAllergyName": "codeine",
+    "externalAllergyReaction" : "Anaphylaxis",
+    "dateTime" : "08/12/2021 00:09",
+    "externalSource" :"Rush University Medical Center",
+    "selectedChoise" : "true"
+  },
+  {
+    "eCCAllergyName" : "Shellfish",
+    "eCCReaction" :"Hives",
+    "externalAllergyName": "oxycodone",
+    "externalAllergyReaction" : "Swelling",
+    "dateTime" : "08/12/2021 00:09",
+    "externalSource" :"Rush University Medical Center",
+    "selectedChoise" : "true"
+  },
+  {
+    "eCCAllergyName" : "codeIne",
+    "eCCReaction" :"Anaphylaxis",
+    "externalAllergyName": "latex",
+    "externalAllergyReaction" : "Hives",
+    "dateTime" : "08/12/2021 00:09",
+    "externalSource" :"Rush University Medical Center",
+    "selectedChoise" : "true"
+  }, {
+    "eCCAllergyName" : "Oxycodone",
+    "eCCReaction" :"Swelling",
+    "externalAllergyName": "codeine",
+    "externalAllergyReaction" : "Anaphylaxis",
+    "dateTime" : "08/12/2021 00:09",
+    "externalSource" :"Rush University Medical Center",
+    "selectedChoise" : "true"
+  },
+  {
+    "eCCAllergyName" : "Shellfish",
+    "eCCReaction" :"Hives",
+    "externalAllergyName": "oxycodone",
+    "externalAllergyReaction" : "Swelling",
+    "dateTime" : "08/12/2021 00:09",
+    "externalSource" :"Rush University Medical Center",
+    "selectedChoise" : "true"
+  },
+  {
+    "eCCAllergyName" : "codeIne",
+    "eCCReaction" :"Anaphylaxis",
+    "externalAllergyName": "latex",
+    "externalAllergyReaction" : "Hives",
+    "dateTime" : "08/12/2021 00:09",
+    "externalSource" :"Rush University Medical Center",
+    "selectedChoise" : "true"
+  }, {
+    "eCCAllergyName" : "Oxycodone",
+    "eCCReaction" :"Swelling",
+    "externalAllergyName": "codeine",
+    "externalAllergyReaction" : "Anaphylaxis",
+    "dateTime" : "08/12/2021 00:09",
+    "externalSource" :"Rush University Medical Center",
+    "selectedChoise" : "true"
+  },
+  {
+    "eCCAllergyName" : "Shellfish",
+    "eCCReaction" :"Hives",
+    "externalAllergyName": "oxycodone",
+    "externalAllergyReaction" : "Swelling",
+    "dateTime" : "08/12/2021 00:09",
+    "externalSource" :"Rush University Medical Center",
+    "selectedChoise" : "true"
+  },
+  {
+    "eCCAllergyName" : "codeIne",
+    "eCCReaction" :"Anaphylaxis",
+    "externalAllergyName": "latex",
+    "externalAllergyReaction" : "Hives",
+    "dateTime" : "08/12/2021 00:09",
+    "externalSource" :"Rush University Medical Center",
+    "selectedChoise" : "true"
+  }, {
+    "eCCAllergyName" : "Oxycodone",
+    "eCCReaction" :"Swelling",
+    "externalAllergyName": "codeine",
+    "externalAllergyReaction" : "Anaphylaxis",
+    "dateTime" : "08/12/2021 00:09",
+    "externalSource" :"Rush University Medical Center",
+    "selectedChoise" : "true"
+  },
+  {
+    "eCCAllergyName" : "Shellfish",
+    "eCCReaction" :"Hives",
+    "externalAllergyName": "oxycodone",
+    "externalAllergyReaction" : "Swelling",
+    "dateTime" : "08/12/2021 00:09",
+    "externalSource" :"Rush University Medical Center",
+    "selectedChoise" : "true"
+  },
+  {
+    "eCCAllergyName" : "codeIne",
+    "eCCReaction" :"Anaphylaxis",
+    "externalAllergyName": "latex",
+    "externalAllergyReaction" : "Hives",
+    "dateTime" : "08/12/2021 00:09",
+    "externalSource" :"Rush University Medical Center",
+    "selectedChoise" : "true"
+  }, {
+    "eCCAllergyName" : "Oxycodone",
+    "eCCReaction" :"Swelling",
+    "externalAllergyName": "codeine",
+    "externalAllergyReaction" : "Anaphylaxis",
+    "dateTime" : "08/12/2021 00:09",
+    "externalSource" :"Rush University Medical Center",
+    "selectedChoise" : "true"
+  },
+  {
+    "eCCAllergyName" : "Shellfish",
+    "eCCReaction" :"Hives",
+    "externalAllergyName": "oxycodone",
+    "externalAllergyReaction" : "Swelling",
+    "dateTime" : "08/12/2021 00:09",
+    "externalSource" :"Rush University Medical Center",
+    "selectedChoise" : "true"
+  }]
+}
